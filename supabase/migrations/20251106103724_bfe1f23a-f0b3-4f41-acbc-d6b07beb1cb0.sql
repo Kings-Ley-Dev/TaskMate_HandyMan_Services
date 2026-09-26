@@ -1,4 +1,4 @@
--- Create job_interests table to track providers interested in jobs
+-- Create job_interests table to track providers interested in jobs. 
 CREATE TABLE public.job_interests (
   id UUID NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
   job_id UUID NOT NULL REFERENCES public.jobs(id) ON DELETE CASCADE,
