@@ -1,4 +1,4 @@
--- Fix search_path security issue for SECURITY DEFINER functions
+-- Fix search_path security issue for SECURITY DEFINER functions. 
 -- This prevents privilege escalation attacks by setting immutable search_path
 
 CREATE OR REPLACE FUNCTION public.update_profile_rating()
