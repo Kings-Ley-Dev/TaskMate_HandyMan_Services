@@ -1,4 +1,4 @@
--- Create portfolios table for provider portfolio uploads
+-- Create portfolios table for provider portfolio uploads. 
 CREATE TABLE IF NOT EXISTS public.portfolios (
   id UUID NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
   provider_id UUID NOT NULL REFERENCES public.profiles(id) ON DELETE CASCADE,
