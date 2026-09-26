@@ -1,4 +1,4 @@
--- Add phone number to profiles
+-- Add phone number to profiles. 
 ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS phone TEXT;
 
 -- Create reviews table
