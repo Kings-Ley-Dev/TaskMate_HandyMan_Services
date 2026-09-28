@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react"; 
 
-interface UseCountUpOptions {
+interface UseCountUpOptions { 
   end: number;
   duration?: number;
   enabled?: boolean;
