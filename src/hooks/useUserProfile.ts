@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "@/integrations/supabase/client"; 
 import { toast } from "sonner";
 
 export interface UserProfile {
   id: string;
-  full_name: string;
+  full_name: string; 
   email: string;
   avatar_url: string | null;
   bio: string | null;
