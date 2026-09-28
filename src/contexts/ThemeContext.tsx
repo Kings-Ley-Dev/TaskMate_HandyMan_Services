@@ -1,6 +1,6 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react"; 
 
-type Theme = "customer" | "provider" | "admin";
+type Theme = "customer" | "provider" | "admin"; 
 
 interface ThemeContextType {
   theme: Theme;
